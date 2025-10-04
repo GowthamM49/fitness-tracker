@@ -12,10 +12,10 @@
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/frontend/$1"
+      "dest": "/index.html"
     }
   ],
   "env": {
-    "REACT_APP_API_URL": "https://your-backend-url.vercel.app/api"
+    "REACT_APP_API_URL": "https://fitness-tracker-7-nv0t.onrender.com/api"
   }
 }
